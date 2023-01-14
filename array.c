@@ -44,6 +44,7 @@ void binarysearch(int arr[], int *usize, int sData)
     int mid = (beg + end) / 2;
     while (beg != end)
     {
+        mid = (beg + end) / 2;   
         if (arr[mid] == sData)
         {
             printf("element is found at %d position\n", mid);
